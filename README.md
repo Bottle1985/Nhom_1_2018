@@ -2,5 +2,5 @@
 Khánh 
 Trường
 Toàn
-Project:...
+Project: Quan ly nhan su - Employee Management System
 Website:...
