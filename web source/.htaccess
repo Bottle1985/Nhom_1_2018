@@ -1,0 +1,12 @@
+ErrorDocument 404 /doan/404.html
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} ^([a-z0-9\-]+)\.(com|net|vn|com\.vn|org|info)$ [NC]
+#RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+
+RewriteRule ^thong-tin-phim/([0-9]+).html$ /doan/thong-tin-phim.php?id=$1&theloai=$2 [L]
+
+RewriteRule ^xem-phim/([0-9]+).html$ /doan/xem-phim.php?id=$1
+
+RewriteRule ^the-loai/([0-9]+).html$ /doan/the-loai.php?id=$1
